@@ -3,11 +3,7 @@
 import java.util.Scanner;
 public class PhoneSelection  {
 public static void main(String[] args) {
-            Scanner scnr = new Scanner (System.in);
-            System.out.println("Enter a single letter, and I will tell you what the corresponding digit is on the telephone");
-            char letter = scnr.next().charAt(0);
-            letter = Character.toUpperCase(letter); 
-            
+          
 /*********************************
 1) Prompt user to enter a singleLetter 
 2)  If singleLetter = A || B || C, print 2
@@ -20,10 +16,13 @@ public static void main(String[] args) {
 9) If SingleLetter = W || X || Y || Z, print 9
 10) print digit
 ***********************************/
+Scanner scnr = new Scanner (System.in);
 
 /**1) Prompt user to enter a singleLetter**/
-
-
+	System.out.println("Enter a single letter, and I will tell you what the corresponding digit is on the telephone");
+            char letter = scnr.next().charAt(0);
+            letter = Character.toUpperCase(letter); 
+            
 
 /* 2)  If singleLetter = A || B || C, print 2*/
 
