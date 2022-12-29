@@ -1,4 +1,5 @@
 /********************************************************************
+A program that takes as input a single letter and displays the corresponding digit on the telephone.
 ********************************************************************/
 import java.util.Scanner;
 public class PhoneSelection  {
